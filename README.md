@@ -1,6 +1,3 @@
-# zip-codes-api
-
-
 <h1 align="center"> Zip Codes API </h1>
 
 <p align="center">
