@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <title>Desafio CEP</title>
+</head>
+<body  class="bg-light" style="font-family: Tahoma, Geneva, Verdana, sans-serif;">
+  <main>
+    <h1 class="text-center text-primary">Desafio CEP</h1>
+  </main>
+  <hr>
+  <main class="d-flex w-75 align-items-center m-auto">
+    <form class="form-group d-flex flex-column m-auto" action="">
+      <label for="cep">Digite um CEP para consulta:
+        <input class="form-control w-auto border-success" type="text" name="cep" size="10" maxlength="9"
+        onblur="pesquisacep(this.value);" id="cep" placeholder="Digite um CEP">
+      </label>
+
+      <label for="rua">Rua:
+        <input class="form-control bg-light" type="text" name="rua" id="rua" size="60" disabled>
+      </label>
+
+      <label for="complemento">Complemento:
+        <input class="form-control bg-light" type="text" name="complemento" id="complemento" disabled>
+      </label>
+
+      <label for="bairro">Bairro:
+        <input class="form-control bg-light" type="text" name="bairro" id="bairro" disabled>
+      </label>
+
+      <label for="cidade">Cidade:
+        <input class="form-control bg-light" type="text" name="cidade" id="cidade" disabled>
+      </label>
+
+      <label for="uf">Estado:
+        <input class="form-control bg-light" type="text" name="uf" id="uf" disabled>
+      </label>
+    </form>
+  </main>
+  
+</body>
+</html>

@@ -1,0 +1,14 @@
+Criar uma página HTML
+    Nela colocar os seguintes campos:
+        CEP, Rua, Complemento, Bairro, Cidade e Estado
+    O campo CEP é o único que precisa vir primeiro, e pode estar até destacado dos demais
+    Os demais campos deixá-los bloqueados
+Criar uma folha de estilos para deixar essa página um pouco mais aceitável
+    Necessário mudar o estilo dos campos, o resto ai você o que é melhor
+No código javascript teremos a adição de listener no campo CEP.
+    Ao sair do campo CEP preenchendo corretamente a informação, vamos chamar uma função que irá consultar o endereço conforme o CEP, e preencher os demais inputs com os dados vindos de uma API.
+    Recomenda-se o uso da API viacep
+Adicionar máscara no campo de CEP (esse daqui, devido a complexidade pode utilizar JQuery)
+
+Endereço da API:
+https://viacep.com.br/
